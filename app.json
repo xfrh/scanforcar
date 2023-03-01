@@ -22,12 +22,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/ic_launcher.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.xfrh.ScanForCar"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b7fdff4d-5a42-4828-9589-d65f0dabfa9b"
+      }
     }
   }
 }
